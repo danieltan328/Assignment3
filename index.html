@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazapee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!---header-->
+    <header class="p-3 mb-3 border-bottom" style="background-color: #F96E2A;">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <h1>LAZAPEE</h1>
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+              <image src="Icon\cart-shopping-solid.svg" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#product" class="nav-link px-2 link-body-emphasis">Products</a></li>
+              <li><a href="#categories" class="nav-link px-2 link-body-emphasis">Categories</a></li>
+              <li><a href="#vouchers" class="nav-link px-2 link-body-emphasis">Vouchers</a></li>
+              <li><a href="#notification" class="nav-link px-2 link-body-emphasis">Notification</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            </form>
+    
+            <div class="dropdown text-end">
+              <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="Icon\user-regular.svg" alt="mdo" width="32" height="32" class="rounded-circle">
+              </a>
+              <ul class="dropdown-menu text-small">
+                <li><a class="dropdown-item" href="#">Cart</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="login.html">Sign In</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </header>
+
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center" >
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm" >
+                <div class="card-header py-3" id="flash1">
+                  <h4 class="my-0 fw-normal">FlashSale</h4>
+                </div>
+                <div>
+                  <img src="Image/RASPBERRY-PI-4B-4GB.jpg" alt="RP4" id="fs1">
+                </div>
+                <div class="card-body1" >
+                  <h1 class="card-title pricing-card-title">RM158<small class="text-body-secondary fw-light" id="fssmall">RM250</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Raspberry Pi 4 Model B</li>
+                    <li>40 GPIO</li>
+                    <li>2 GB SDRAM</li>
+                    <li>READY STOCK!!</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-warning">Grab it now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm" >
+                <div class="card-header py-3" id="flash1">
+                  <h4 class="my-0 fw-normal">FlashSale</h4>
+                </div>  
+                <div>
+                  <img src="Image\ARDUINO R4.jpg" alt="R4" id="fs2">
+                </div>
+                <div class="card-body1">
+                  <h1 class="card-title pricing-card-title">RM50<small class="text-body-secondary fw-light" id="fssmall">RM150</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Arduino UNO R4</li>
+                    <li>20 I/O Pins</li>
+                    <li>SDRAM 32KB</li>
+                    <li>READY STOCk!!</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-warning">Grab it now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3" id="flash1">
+                  <h4 class="my-0 fw-normal">FlashSale</h4>
+                </div>
+                <div>
+                  <img src="Image\Arduino Mega.jpg" alt="Arduino Mega2560" id="fs2">
+                </div>
+                <div class="card-body1">
+                  <h1 class="card-title pricing-card-title">RM30<small class="text-body-secondary fw-light" id="fssmall">RM55.50</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Arduino Mega2560</li>
+                    <li>70 I/O Pins</li>
+                    <li>SRAM 8KB</li>
+                    <li>READY STOCK!!</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-warning">Grab it now</button>
+                </div>
+              </div>
+            </div>
+          <div id="extwaiokist" style="display:none" v="nipgg" q="7f453a38" c="241.9" i="254" u="0.630" s="01192501" sg="svr_07312409-ga_01192501-bai_02112513" d="1" w="false" e="}" a="3" m="BMe=" vn="9adfy"><div id="extwaigglbit" style="display:none" v="nipgg" q="7f453a38" c="241.9" i="254" u="0.630" s="01192501" sg="svr_07312409-ga_01192501-bai_02112513" d="1" w="false" e="}" a="3" m="BMe="></div></div></div>
+
+          <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm" id="product">
+                  <img src="Image\Dupont-Jumper-Wire-30cm-Male-to-Male.jpg" alt="Jumper Wires" id="s1">
+                  <div class="card-body">
+                    <h3 style="text-align: center;">Jumper Wires <small id="ssmall">Male to Male</small></h3>
+                    <h4 style="text-align: center;">RM2.00 <small id="fssmall">RM5.00</small></h4>
+                    <p class="card-text" style="text-align: center;">10cm/20cm/30cm</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                      </div>
+                      <small class="text-body-secondary">Selangor</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="Image\mtf1.jpg" alt="Jumper Wires" id="s2">
+                  <div class="card-body">
+                    <h3 style="text-align: center;">Jumper Wires <small id="ssmall">Male to Female</small></h3>
+                    <h4 style="text-align: center;">RM2.00 <small id="fssmall">RM5.00</small></h4>
+                    <p class="card-text" style="text-align: center;">10cm/20cm/30cm</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                      </div>
+                      <small class="text-body-secondary">Selangor</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="Image\20cm-40PIN-Female-to-Female-DuPont-Cable-Line-Jumper-Connector-Breadboard-Wire-TE347-SZ_1024x1024.jpg" alt="Jumper Wires" id="s3">
+                  <div class="card-body">
+                    <h3 style="text-align: center;">Jumper Wires <small id="ssmall">Female to Female</small></h3>
+                    <h4 style="text-align: center;">RM2.00 <small id="fssmall">RM5.00</small></h4>
+                    <p class="card-text" style="text-align: center;">10cm/20cm/30cm</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                      </div>
+                      <small class="text-body-secondary">Selangor</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="Image\images.jpg" alt="Breadboard" id="s4">
+                  <div class="card-body">
+                    <h3 style="text-align: center;">Breadboard <small id="ssmall">Half</small></h3>
+                    <h4 style="text-align: center;">RM5.00 <small id="fssmall">RM8.00</small></h4>
+                    <p class="card-text" style="text-align: center;">400 Holes<br>8.5cm*5.5cm</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                      </div>
+                      <small class="text-body-secondary">Penang</small>
+                    </div>
+                  </div>
+                </div>
+              <div id="extwaiokist" style="display:none" v="nipgg" q="7f453a38" c="241.9" i="254" u="1.215" s="01192501" sg="svr_07312409-ga_01192501-bai_02112513" d="1" w="false" e="}" a="3" m="BMe=" vn="9adfy"><div id="extwaigglbit" style="display:none" v="nipgg" q="7f453a38" c="241.9" i="254" u="1.215" s="01192501" sg="svr_07312409-ga_01192501-bai_02112513" d="1" w="false" e="}" a="3" m="BMe="></div></div></div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="Image\led.jpg" alt="LED" id="s5">
+                  <div class="card-body">
+                    <h3 style="text-align: center;">LED<small id="ssmall"> 10pcs/pack</small></h3>
+                    <h4 style="text-align: center;">RM1.00 <small id="fssmall">RM1.00</small></h4>
+                    <p class="card-text" style="text-align: center;">common annode<br>blue/green/white/yellow/red</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                      </div>
+                      <small class="text-body-secondary">Penang</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="Image\rgb.jpg" alt="RGB" id="s6">
+                  <div class="card-body">
+                    <h3 style="text-align: center;">RGB <small id="ssmall">10pcs/pack</small></h3>
+                    <h4 style="text-align: center;">RM2.00 <small id="fssmall">RM2.00</small></h4>
+                    <p class="card-text" style="text-align: center;">common annode<br>4 pins</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                      </div>
+                      <small class="text-body-secondary">Penang</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="Image\servo.jpg" alt="Servo Motor" id="s7">
+                  <div class="card-body">
+                    <h3 style="text-align: center;">Servo Motor <small id="ssmall">SG90</small></h3>
+                    <h4 style="text-align: center;">RM10.00 <small id="fssmall">RM15.00</small></h4>
+                    <p class="card-text" style="text-align: center;">Plastic Gear with Parts</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button> 
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                      </div>
+                      <small class="text-body-secondary">Johor</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="Image\nema17.jpg" alt="Nema 17" id="s8">
+                  <div class="card-body">
+                    <h3 style="text-align: center;">Stepper Motors <small id="ssmall">Nema 17</small></h3>
+                    <h4 style="text-align: center;">RM28.00 <small id="fssmall">RM50.00</small></h4>
+                    <p class="card-text" style="text-align: center;">with 1m Dupont Line Cable</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                      </div>
+                      <small class="text-body-secondary">Johor</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="Image\tb6600.jpg" alt="TB6600" id="s9">
+                  <div class="card-body">
+                    <h3 style="text-align: center;">Stepper Motor Driver <small id="ssmall">TB6600</small></h3>
+                    <h4 style="text-align: center;">RM34.00 <small id="fssmall">RM75.00</small></h4>
+                    <p class="card-text" style="text-align: center;">suitable for nema17/nema23</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                      </div>
+                      <small class="text-body-secondary">Johor</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      
+      <!---Footer-->
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Company, Inc</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="Icon\x-twitter-brands.svg" width="24" height="24"><use link:href="#X"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="Icon\instagram-brands.svg" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="Icon\facebook-brands.svg" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </footer>
+      </div>
+</body>
+</html>
